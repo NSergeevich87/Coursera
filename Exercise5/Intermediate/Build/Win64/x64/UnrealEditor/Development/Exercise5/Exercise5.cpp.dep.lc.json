@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\exercise5\\source\\exercise5\\exercise5.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\exercise5\\intermediate\\build\\win64\\x64\\exercise5editor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\exercise5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exercise5\\definitions.exercise5.h",
+            "d:\\unreal\\projects\\coursera\\exercise5\\source\\exercise5\\exercise5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

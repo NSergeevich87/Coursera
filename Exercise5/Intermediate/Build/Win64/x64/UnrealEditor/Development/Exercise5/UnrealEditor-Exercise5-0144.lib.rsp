@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Exercise5-0144.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\Exercise5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise5\Exercise5.init.gen.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise5\PrintPercent.gen.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise5\Exercise5.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise5\PrintPercent.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise5\Default.rc2.res"
+/OUT:"D:\Unreal\Projects\Coursera\Exercise5\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise5\UnrealEditor-Exercise5-0144.lib"

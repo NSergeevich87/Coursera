@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Exercise2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\Exercise2Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise2\Exercise2.init.gen.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise2\PrintFavoriteGames.gen.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise2\Exercise2.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise2\PrintFavoriteGames.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise2\Default.rc2.res"
+/OUT:"D:\Unreal\Projects\Coursera\Exercise2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise2\UnrealEditor-Exercise2.lib"

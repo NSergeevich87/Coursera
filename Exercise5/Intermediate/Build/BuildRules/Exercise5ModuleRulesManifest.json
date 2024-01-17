@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal\\Projects\\Coursera\\Exercise5\\Source\\Exercise5\\Exercise5.Build.cs",
+		"D:\\Unreal\\Projects\\Coursera\\Exercise5\\Source\\Exercise5.Target.cs",
+		"D:\\Unreal\\Projects\\Coursera\\Exercise5\\Source\\Exercise5Editor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

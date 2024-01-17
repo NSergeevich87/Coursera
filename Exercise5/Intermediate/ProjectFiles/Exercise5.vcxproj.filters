@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Exercise5.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exercise5.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Exercise5Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Exercise5">
+      <UniqueIdentifier>{FC479DA3-E7C4-37C6-8A5C-FF003F0A7E1D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exercise5\Exercise5.Build.cs">
+      <Filter>Source\Exercise5</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Exercise5\Exercise5.cpp">
+      <Filter>Source\Exercise5</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise5\Exercise5.h">
+      <Filter>Source\Exercise5</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Exercise5\PrintPercent.cpp">
+      <Filter>Source\Exercise5</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise5\PrintPercent.h">
+      <Filter>Source\Exercise5</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
