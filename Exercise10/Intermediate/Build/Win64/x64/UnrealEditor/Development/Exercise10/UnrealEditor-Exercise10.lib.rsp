@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Exercise10.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\Projects\Coursera\Exercise10\Intermediate\Build\Win64\x64\Exercise10Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\Unreal\Projects\Coursera\Exercise10\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise10\Exercise10.cpp.obj"
+"D:\Unreal\Projects\Coursera\Exercise10\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise10\Default.rc2.res"
+/OUT:"D:\Unreal\Projects\Coursera\Exercise10\Intermediate\Build\Win64\x64\UnrealEditor\Development\Exercise10\UnrealEditor-Exercise10.lib"
