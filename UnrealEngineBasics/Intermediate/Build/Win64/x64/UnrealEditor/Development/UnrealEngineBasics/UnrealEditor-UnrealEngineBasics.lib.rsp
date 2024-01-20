@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealEngineBasics.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\Projects\Coursera\UnrealEngineBasics\Intermediate\Build\Win64\x64\UnrealEngineBasicsEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\Unreal\Projects\Coursera\UnrealEngineBasics\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineBasics\UnrealEngineBasics.cpp.obj"
+"D:\Unreal\Projects\Coursera\UnrealEngineBasics\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineBasics\Default.rc2.res"
+/OUT:"D:\Unreal\Projects\Coursera\UnrealEngineBasics\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineBasics\UnrealEditor-UnrealEngineBasics.lib"

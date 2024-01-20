@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal\\Projects\\Coursera\\UnrealEngineBasics\\Source\\UnrealEngineBasics\\UnrealEngineBasics.Build.cs",
+		"D:\\Unreal\\Projects\\Coursera\\UnrealEngineBasics\\Source\\UnrealEngineBasics.Target.cs",
+		"D:\\Unreal\\Projects\\Coursera\\UnrealEngineBasics\\Source\\UnrealEngineBasicsEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
