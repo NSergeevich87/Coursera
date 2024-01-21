@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Exercise_12.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exercise_12.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Exercise_12Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Exercise_12">
+      <UniqueIdentifier>{65787AC8-5D15-3D39-9164-1CDA2F0FF25B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exercise_12\Exercise_12.Build.cs">
+      <Filter>Source\Exercise_12</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Exercise_12\Exercise_12.cpp">
+      <Filter>Source\Exercise_12</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise_12\Exercise_12.h">
+      <Filter>Source\Exercise_12</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Exercise_12\Green_TB.cpp">
+      <Filter>Source\Exercise_12</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise_12\Green_TB.h">
+      <Filter>Source\Exercise_12</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Exercise_12\Purple_TB.cpp">
+      <Filter>Source\Exercise_12</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise_12\Purple_TB.h">
+      <Filter>Source\Exercise_12</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
