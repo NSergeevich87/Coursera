@@ -1,0 +1,1 @@
+#include "D:/Unreal/Projects/Coursera/ShrinkAndGrow/Source/ShrinkAndGrow/Resizer.h"
