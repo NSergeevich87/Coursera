@@ -15,10 +15,7 @@
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalObjects__/JumpThatActor/Maps/Map0/E/X7/S9WFSO95EN9XX9HSA35GJV.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/D/QV/K1HAG532M9320WGDDWSPPW.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/F/4K/5MRB4ZN45V4RYKP3EDK3C6.uasset",
-				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/4/GL/7FZ9WMPEL5EDXL8MAUGA5P.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/B/YY/IJWTHM6J2G93S1WZ9BL794.uasset",
-				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/3/46/GIZW1VU00WBVQB7CHR5L3C.uasset",
-				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/9/AS/HD2JIF6G7UPA3UDSRQ0NXJ.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/E/P8/1JDP5JK7DFJ0ST5VSZ12F8.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/7/M6/1SSDAT9Y6EJIBA2C7VM0LF.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/C/EZ/YRHXJW8V9IRC3RH38QLQWV.uasset",
@@ -153,7 +150,18 @@
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/JumpThatActor/Physics/PM_TB.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/JumpThatActor/Physics/PM_Ground.uasset",
 				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/B/BO/7O5QOJRXTIR6U58D8XD1LL.uasset",
-				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/D/O2/56OZWFM0VVDKFOHGGU4B2I.uasset"
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/D/O2/56OZWFM0VVDKFOHGGU4B2I.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/JumpThatActor/Blueprints/BP_Green_TB.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/JumpThatActor/Blueprints/BP_Purple_TB.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/JumpThatActor/Blueprints/BP_Yellow_TB.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/JumpThatActor/Blueprints/BP_Spawner_TeddyBear.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/7/QP/WPG6XB8PQYPEXZIC4DKZ2E.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/9/08/XET460VP4F4E33NU74HE3W.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/A/4Y/4FVR7EK3NKBR4VNSI3QU5Z.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/B/KK/KQGKPSKPDQWFIOL92NMDV5.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/4/GL/7FZ9WMPEL5EDXL8MAUGA5P.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/3/46/GIZW1VU00WBVQB7CHR5L3C.uasset",
+				"D:/Unreal/Projects/Coursera/JumpThatActor/Content/__ExternalActors__/JumpThatActor/Maps/Map0/9/AS/HD2JIF6G7UPA3UDSRQ0NXJ.uasset"
 			]
 		}
 	]

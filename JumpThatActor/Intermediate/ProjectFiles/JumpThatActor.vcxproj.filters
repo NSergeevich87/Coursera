@@ -24,12 +24,21 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\JumpThatActor">
       <UniqueIdentifier>{D9212D44-2709-33F6-9067-F28F10401FE0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\JumpThatActor\DestructorGM.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\DestructorGM.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\JumpThatActor\Jumper.cpp">
       <Filter>Source\JumpThatActor</Filter>
     </ClCompile>
@@ -43,6 +52,18 @@
       <Filter>Source\JumpThatActor</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\JumpThatActor\JumpThatActor.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JumpThatActor\Spawner_TeddyBear.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\Spawner_TeddyBear.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JumpThatActor\TeddyBear.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\TeddyBear.h">
       <Filter>Source\JumpThatActor</Filter>
     </ClInclude>
   </ItemGroup>
