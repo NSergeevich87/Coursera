@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal\\Projects\\Coursera\\ShrinkAndGrow\\Source\\ShrinkAndGrow\\ShrinkAndGrow.Build.cs",
-		"D:\\Unreal\\Projects\\Coursera\\ShrinkAndGrow\\Source\\ShrinkAndGrow.Target.cs",
-		"D:\\Unreal\\Projects\\Coursera\\ShrinkAndGrow\\Source\\ShrinkAndGrowEditor.Target.cs"
-	],
-	"EngineVersion": "5.3.2"
-}
