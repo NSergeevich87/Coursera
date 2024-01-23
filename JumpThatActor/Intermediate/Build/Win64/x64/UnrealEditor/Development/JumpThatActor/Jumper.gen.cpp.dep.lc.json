@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\jumpthatactor\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpthatactor\\uht\\jumper.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\jumpthatactor\\intermediate\\build\\win64\\x64\\jumpthatactoreditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\jumpthatactor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpthatactor\\definitions.jumpthatactor.h",
+            "d:\\unreal\\projects\\coursera\\jumpthatactor\\source\\jumpthatactor\\jumper.h",
+            "d:\\unreal\\projects\\coursera\\jumpthatactor\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpthatactor\\uht\\jumper.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

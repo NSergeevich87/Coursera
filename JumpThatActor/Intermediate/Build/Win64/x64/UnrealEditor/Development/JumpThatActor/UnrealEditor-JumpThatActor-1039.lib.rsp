@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-JumpThatActor-1039.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\JumpThatActorEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpThatActor\Jumper.gen.cpp.obj"
+"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpThatActor\JumpThatActor.init.gen.cpp.obj"
+"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpThatActor\Jumper.cpp.obj"
+"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpThatActor\JumpThatActor.cpp.obj"
+"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpThatActor\Default.rc2.res"
+/OUT:"D:\Unreal\Projects\Coursera\JumpThatActor\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpThatActor\UnrealEditor-JumpThatActor-1039.lib"
