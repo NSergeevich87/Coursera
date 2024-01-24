@@ -34,7 +34,6 @@ public:
 	UFUNCTION()
 	void StartSpawn();
 
-
 public:	
 	/**
 	 * Sets default values for this actor's properties

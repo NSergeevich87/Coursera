@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\jumpthatactor\\source\\jumpthatactor\\screenconstants.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\jumpthatactor\\intermediate\\build\\win64\\x64\\jumpthatactoreditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\jumpthatactor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpthatactor\\definitions.jumpthatactor.h",
+            "d:\\unreal\\projects\\coursera\\jumpthatactor\\source\\jumpthatactor\\screenconstants.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

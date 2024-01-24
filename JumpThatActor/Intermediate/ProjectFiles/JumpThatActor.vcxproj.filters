@@ -33,6 +33,24 @@
     <Filter Include="Source\JumpThatActor">
       <UniqueIdentifier>{D9212D44-2709-33F6-9067-F28F10401FE0}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\JumpThatActor\CharacterGameMode.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\CharacterGameMode.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JumpThatActor\CharacterPawn.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\CharacterPawn.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JumpThatActor\CharacterPlayerController.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\CharacterPlayerController.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\JumpThatActor\DestructorGM.cpp">
       <Filter>Source\JumpThatActor</Filter>
     </ClCompile>
@@ -52,6 +70,12 @@
       <Filter>Source\JumpThatActor</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\JumpThatActor\JumpThatActor.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JumpThatActor\ScreenConstants.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\ScreenConstants.h">
       <Filter>Source\JumpThatActor</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\JumpThatActor\Spawner_TeddyBear.cpp">

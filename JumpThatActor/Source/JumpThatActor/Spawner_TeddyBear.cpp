@@ -63,5 +63,5 @@ void ASpawner_TeddyBear::StartSpawn()
 void ASpawner_TeddyBear::StartTimer()
 {
 	FTimerHandle Timer;
-	GetWorldTimerManager().SetTimer(Timer, this, &ASpawner_TeddyBear::StartSpawn, 0.5f);
+	GetWorldTimerManager().SetTimer(Timer, this, &ASpawner_TeddyBear::StartSpawn, 0.1f);
 }
