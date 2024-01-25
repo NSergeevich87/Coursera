@@ -5,12 +5,13 @@
 
 ACharacterGameMode::ACharacterGameMode()
 {
+	// MinerPawn ref: /Script/Engine.Blueprint'/Game/JumpThatActor/Blueprints/BP_MinerPawn.BP_MinerPawn'
 	// character references: /Script/Engine.Blueprint'/Game/JumpThatActor/Blueprints/BP_CharacterPawn.BP_CharacterPawn'
 	// controller references: /Script/Engine.Blueprint'/Game/JumpThatActor/Blueprints/BP_CharacterPlayerController.BP_CharacterPlayerController'
 	// set pawn and player controller
 	
 	ConstructorHelpers::FObjectFinder<UClass>
-		PawnClass(TEXT("Class'/Game/JumpThatActor/Blueprints/BP_CharacterPawn.BP_CharacterPawn_C'"));
+		PawnClass(TEXT("Class'/Game/JumpThatActor/Blueprints/BP_MinerPawn.BP_MinerPawn_C'"));
 	if (PawnClass.Object != nullptr)
 	{
 		DefaultPawnClass = PawnClass.Object;

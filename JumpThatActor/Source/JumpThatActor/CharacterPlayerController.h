@@ -3,6 +3,7 @@
 #pragma once
 
 #include "TeddyBear.h"
+#include "MinerPawn.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "CharacterPlayerController.generated.h"
@@ -27,13 +28,19 @@ public:
 	*/
 	virtual void PlayerTick(float DeltaTime) override;
 
-	void DestroyCharacterPawn();
+	//void DestroyCharacterPawn();
 
-	void JumpMinerPawn();
+	//void JumpMinerPawn();
 
 	void SpawnTeddyBear();
 
 	void DestroyTeddyBear();
+
+	// input on Horizontal axis
+	void MoveHorizontally(float input);
+	// input on Vertical axis
+	void MoveVertically(float input);
+	void DestroyMiner();
 
 	UPROPERTY(EditAnywhere, meta = (MetaClass = "TeddyBear"), Category = TeddyBearBlueprints)
 	TSubclassOf<ATeddyBear> TeddyBear_Yellow;

@@ -72,6 +72,12 @@
     <ClInclude Include="..\..\Source\JumpThatActor\JumpThatActor.h">
       <Filter>Source\JumpThatActor</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\JumpThatActor\MinerPawn.cpp">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JumpThatActor\MinerPawn.h">
+      <Filter>Source\JumpThatActor</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\JumpThatActor\ScreenConstants.cpp">
       <Filter>Source\JumpThatActor</Filter>
     </ClCompile>

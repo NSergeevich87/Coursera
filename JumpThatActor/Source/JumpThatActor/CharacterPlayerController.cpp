@@ -18,13 +18,16 @@ void ACharacterPlayerController::SetupInputComponent()
 	check(InputComponent);
 	InputComponent->BindAction("SpawnTeddyBear", EInputEvent::IE_Released, this, &ACharacterPlayerController::SpawnTeddyBear);
 	InputComponent->BindAction("DestroyTeddyBear", EInputEvent::IE_Released, this, &ACharacterPlayerController::DestroyTeddyBear);
+	InputComponent->BindAxis("Horizontal", this, &ACharacterPlayerController::MoveHorizontally);
+	InputComponent->BindAxis("Vertical", this, &ACharacterPlayerController::MoveVertically);
+	InputComponent->BindAction("DestroyMiner", EInputEvent::IE_Pressed, this, &ACharacterPlayerController::DestroyMiner);
 }
 
 void ACharacterPlayerController::PlayerTick(float DeltaTime)
 {
 	Super::PlayerTick(DeltaTime);
 
-	
+	/*
 	// convert mouse position to world location
 	FVector WorldLocation;
 	FVector WorldRotation;
@@ -37,31 +40,31 @@ void ACharacterPlayerController::PlayerTick(float DeltaTime)
 	{
 		CharacterPawn->SetLocation(WorldLocation);
 	}
-	
+	*/
 }
 
-void ACharacterPlayerController::DestroyCharacterPawn()
-{
-	ACharacterPawn* CharacterPawn = (ACharacterPawn*)GetPawn();
-	if (CharacterPawn != nullptr)
-	{
-		CharacterPawn->Destroy();
-	}
-}
+//void ACharacterPlayerController::DestroyCharacterPawn()
+//{
+//	ACharacterPawn* CharacterPawn = (ACharacterPawn*)GetPawn();
+//	if (CharacterPawn != nullptr)
+//	{
+//		CharacterPawn->Destroy();
+//	}
+//}
 
-void ACharacterPlayerController::JumpMinerPawn()
-{
-	FVector WorldLocation{};
-	FVector WorldDirection{};
-	DeprojectMousePositionToWorld(WorldLocation, WorldDirection);
-
-	WorldLocation.X = 0;
-	ACharacterPawn* CharacterPawn = (ACharacterPawn*)GetPawn();
-	if (CharacterPawn != nullptr)
-	{
-		CharacterPawn->SetLocation(WorldLocation);
-	}
-}
+//void ACharacterPlayerController::JumpMinerPawn()
+//{
+//	FVector WorldLocation{};
+//	FVector WorldDirection{};
+//	DeprojectMousePositionToWorld(WorldLocation, WorldDirection);
+//
+//	WorldLocation.X = 0;
+//	ACharacterPawn* CharacterPawn = (ACharacterPawn*)GetPawn();
+//	if (CharacterPawn != nullptr)
+//	{
+//		CharacterPawn->SetLocation(WorldLocation);
+//	}
+//}
 
 void ACharacterPlayerController::SpawnTeddyBear()
 {
@@ -100,5 +103,38 @@ void ACharacterPlayerController::DestroyTeddyBear()
 	for (int i = 0; i < Bears.Num(); i++)
 	{
 		Bears[i]->Destroy();
+	}
+}
+
+void ACharacterPlayerController::MoveHorizontally(float input)
+{
+	if (input != 0)
+	{
+		AMinerPawn* MinerPawn = (AMinerPawn*)GetPawn();
+		if (MinerPawn != nullptr)
+		{
+			MinerPawn->MoveHorizontally(input);
+		}
+	}
+}
+
+void ACharacterPlayerController::MoveVertically(float input)
+{
+	if (input != 0)
+	{
+		AMinerPawn* MinerPawn = (AMinerPawn*)GetPawn();
+		if (MinerPawn != nullptr)
+		{
+			MinerPawn->MoveVertically(input);
+		}
+	}
+}
+
+void ACharacterPlayerController::DestroyMiner()
+{
+	AMinerPawn* MinerPawn = (AMinerPawn*)GetPawn();
+	if (MinerPawn != nullptr)
+	{
+		MinerPawn->Destroy();
 	}
 }
