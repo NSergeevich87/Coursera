@@ -29,9 +29,9 @@ void AMyPawn::Tick(float DeltaTime)
 	{
 		FVector NewLocation = GetActorLocation();
 		NewLocation.Y += GetValueInput.Y;
-		NewLocation.Y = FMath::Clamp(NewLocation.Y, ScreenParam::Left + MeshHalfWidth, ScreenParam::Right - MeshHalfWidth);
+		//NewLocation.Y = FMath::Clamp(NewLocation.Y, ScreenParam::Left + MeshHalfWidth, ScreenParam::Right - MeshHalfWidth);
 		NewLocation.Z += GetValueInput.Z;
-		NewLocation.Y = FMath::Clamp(NewLocation.Z, ScreenParam::Bottom + MeshHalfHeight, ScreenParam::Top - MeshHalfHeight);
+		//NewLocation.Y = FMath::Clamp(NewLocation.Z, ScreenParam::Bottom + MeshHalfHeight, ScreenParam::Top - MeshHalfHeight);
 		SetActorLocation(NewLocation);
 	}
 }

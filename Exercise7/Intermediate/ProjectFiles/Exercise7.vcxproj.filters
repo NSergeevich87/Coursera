@@ -45,6 +45,12 @@
     <ClInclude Include="..\..\Source\Exercise7\Exercise7.h">
       <Filter>Source\Exercise7</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Exercise7\MyClass.cpp">
+      <Filter>Source\Exercise7</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise7\MyClass.h">
+      <Filter>Source\Exercise7</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Exercise7\MyController.cpp">
       <Filter>Source\Exercise7</Filter>
     </ClCompile>
@@ -55,6 +61,12 @@
       <Filter>Source\Exercise7</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Exercise7\MyPawn.h">
+      <Filter>Source\Exercise7</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Exercise7\ScreenParam.cpp">
+      <Filter>Source\Exercise7</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Exercise7\ScreenParam.h">
       <Filter>Source\Exercise7</Filter>
     </ClInclude>
   </ItemGroup>
