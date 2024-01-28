@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TedPickup",
+			"Path": "..\\Source\\TedPickup.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TedPickupEditor",
+			"Path": "..\\Source\\TedPickupEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

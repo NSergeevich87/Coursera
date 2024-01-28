@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TedPickup.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TedPickup.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TedPickupEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TedPickup">
+      <UniqueIdentifier>{0858E03B-F61B-3BD9-A5B1-A66ABABFA8DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TedPickup\Pickup.cpp">
+      <Filter>Source\TedPickup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TedPickup\Pickup.h">
+      <Filter>Source\TedPickup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TedPickup\TedController.cpp">
+      <Filter>Source\TedPickup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TedPickup\TedController.h">
+      <Filter>Source\TedPickup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TedPickup\TedGameMode.cpp">
+      <Filter>Source\TedPickup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TedPickup\TedGameMode.h">
+      <Filter>Source\TedPickup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TedPickup\TedPawn.cpp">
+      <Filter>Source\TedPickup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TedPickup\TedPawn.h">
+      <Filter>Source\TedPickup</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TedPickup\TedPickup.Build.cs">
+      <Filter>Source\TedPickup</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TedPickup\TedPickup.cpp">
+      <Filter>Source\TedPickup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TedPickup\TedPickup.h">
+      <Filter>Source\TedPickup</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
