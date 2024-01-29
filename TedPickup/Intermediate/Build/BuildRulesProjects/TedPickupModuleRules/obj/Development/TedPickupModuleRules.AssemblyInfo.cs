@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TedPickupModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cd633a3fc62e98e26bc2e630763f0a2a17281b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TedPickupModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TedPickupModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
