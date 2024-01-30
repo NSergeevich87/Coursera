@@ -10,10 +10,14 @@ private:
 	bool Organic{ true };
 
 public:
-	Apple(bool isOrganic, float Size) : Organic{ isOrganic }, AmountLeft{ Size } {}
+	Apple();
 
-	bool isOrganic() const { return Organic; }
-	float GetAmountLeft() const { return AmountLeft; }
+	Apple(bool isOrganic);
+
+	Apple(bool isOrganic, float Size);
+
+	bool isOrganic() const;
+	float GetAmountLeft() const;
 
 	void TakeBite(float Size)
 	{

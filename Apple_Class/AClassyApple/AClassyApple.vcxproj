@@ -130,10 +130,12 @@
     <ClCompile Include="AClassyApple.cpp" />
     <ClCompile Include="Apple.cpp" />
     <ClCompile Include="Die.cpp" />
+    <ClCompile Include="Random.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Apple.h" />
     <ClInclude Include="Die.h" />
+    <ClInclude Include="Random.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

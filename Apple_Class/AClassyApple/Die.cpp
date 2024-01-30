@@ -1,4 +1,5 @@
 #include "Die.h"
+#include "Random.h"
 
 /**
  * Constructor for a six-sided
@@ -32,4 +33,9 @@ int Die::GetNumSides() const
 int Die::GetTopSide() const
 {
     return TopSide;
+}
+
+void Die::Roll()
+{
+    TopSide = Random::Next(NumSides) + 1;
 }

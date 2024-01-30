@@ -34,5 +34,10 @@ public:
 	 * @return top side
 	*/
 	int GetTopSide() const;
+
+	/**
+	 * Rolls the die
+	*/
+	void Roll();
 };
 
