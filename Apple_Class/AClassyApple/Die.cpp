@@ -17,6 +17,10 @@ Die::Die(int NumSides) : NumSides{ NumSides }
 {
 }
 
+Die::~Die()
+{
+}
+
 /**
 * Gets the number of sides
 * @return number of sides

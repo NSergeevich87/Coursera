@@ -33,5 +33,13 @@ int main()
 	Die20.Roll();
 	cout << "Top Side: " << Die20.GetTopSide() << "\n";
 
+	Apple Apple_1;
+	cout << Apple_1.GetAmountLeft() << "\n";
+	
+	while (Apple_1.GetAmountLeft() > 0)
+	{
+		Apple_1.TakeBite(0.1);
+	}
+
 	return 0;
 }

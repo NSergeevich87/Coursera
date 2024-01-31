@@ -24,6 +24,11 @@ public:
 	Die(int NumSides);
 
 	/**
+	 * Destructor
+	*/
+	~Die();
+
+	/**
 	 * Gets the number of sides
 	 * @return number of sides
 	*/
