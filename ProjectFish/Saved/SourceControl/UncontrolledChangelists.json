@@ -69,11 +69,23 @@
 				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Maps/Map0.umap",
 				"D:/Unreal/Projects/Coursera/ProjectFish/Content/__ExternalActors__/ProjectFish/Maps/Map0/5/XR/EEVUHME99ZSZ8L9S1OIJMC.uasset",
 				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Blueprints/BP_FishPawn.uasset",
-				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/M_Fish.uasset",
 				"D:/Unreal/Projects/Coursera/ProjectFish/Content/__ExternalActors__/ProjectFish/Maps/Map0/7/FT/6JHZ2G55725P5Y0JQSFQPH.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Blueprints/BP_FishPlayerController.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/Fish/M_Fish.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/Fish/SM_Fish.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/Fish/T_Fish_D.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/Casador/M_Character_3.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/Casador/SM_Character_3.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/Casador/T_Character_3_D.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Blueprints/BP_CasadorPawn.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Blueprints/BP_CasadorController.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/__ExternalActors__/ProjectFish/Maps/Map0/9/0K/FRHZYTQ5AV1F0DRAPJSAZV.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/__ExternalActors__/ProjectFish/Maps/Map0/2/KF/B1D7H1VGXFCY2SYK7BY3A9.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/__ExternalActors__/ProjectFish/Maps/Map0/9/CD/NENIMINKVKXC3U6WTV68U8.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/__ExternalActors__/ProjectFish/Maps/Map0/4/XP/D8RDUKDSL98Z9EH8TN22IJ.uasset",
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/M_Fish.uasset",
 				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/SM_Fish.uasset",
-				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/T_Fish_D.uasset",
-				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Blueprints/BP_FishPlayerController.uasset"
+				"D:/Unreal/Projects/Coursera/ProjectFish/Content/ProjectFish/Art/T_Fish_D.uasset"
 			]
 		}
 	]

@@ -30,6 +30,24 @@
     <Filter Include="Source\ProjectFish">
       <UniqueIdentifier>{CE73E812-38D8-316F-8611-9213B4DBBF8D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProjectFish\CasadorController.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\CasadorController.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\CasadorGameModeBase.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\CasadorGameModeBase.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\CasadorPawn.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\CasadorPawn.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ProjectFish\FishPawn.cpp">
       <Filter>Source\ProjectFish</Filter>
     </ClCompile>
