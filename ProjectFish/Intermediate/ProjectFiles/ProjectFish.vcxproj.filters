@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectFish.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectFish.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectFishEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectFish">
+      <UniqueIdentifier>{CE73E812-38D8-316F-8611-9213B4DBBF8D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectFish\FishPawn.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\FishPawn.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\FishPlayerController.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\FishPlayerController.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjectFish\ProjectFish.Build.cs">
+      <Filter>Source\ProjectFish</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectFish\ProjectFish.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\ProjectFish.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\ProjectFishGameModeBase.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\ProjectFishGameModeBase.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\ScreenConstants.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\ScreenConstants.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

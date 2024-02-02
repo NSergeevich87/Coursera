@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal\\Projects\\Coursera\\ProjectFish\\Source\\ProjectFish\\ProjectFish.Build.cs",
+		"D:\\Unreal\\Projects\\Coursera\\ProjectFish\\Source\\ProjectFish.Target.cs",
+		"D:\\Unreal\\Projects\\Coursera\\ProjectFish\\Source\\ProjectFishEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
