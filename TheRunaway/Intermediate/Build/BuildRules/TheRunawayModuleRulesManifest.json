@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal\\Projects\\Coursera\\TheRunaway\\Source\\TheRunaway\\TheRunaway.Build.cs",
+		"D:\\Unreal\\Projects\\Coursera\\TheRunaway\\Source\\TheRunaway.Target.cs",
+		"D:\\Unreal\\Projects\\Coursera\\TheRunaway\\Source\\TheRunawayEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

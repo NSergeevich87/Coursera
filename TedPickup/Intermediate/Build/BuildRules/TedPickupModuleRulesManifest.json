@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal\\Projects\\Coursera\\TedPickup\\Source\\TedPickup\\TedPickup.Build.cs",
-		"D:\\Unreal\\Projects\\Coursera\\TedPickup\\Source\\TedPickup.Target.cs",
-		"D:\\Unreal\\Projects\\Coursera\\TedPickup\\Source\\TedPickupEditor.Target.cs"
-	],
-	"EngineVersion": "5.3.2"
-}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\therunaway\\intermediate\\build\\win64\\unrealeditor\\inc\\therunaway\\uht\\casadorpawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\therunaway\\intermediate\\build\\win64\\x64\\therunawayeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\therunaway\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\therunaway\\definitions.therunaway.h",
+            "d:\\unreal\\projects\\coursera\\therunaway\\source\\therunaway\\casadorpawn.h",
+            "d:\\unreal\\projects\\coursera\\therunaway\\intermediate\\build\\win64\\unrealeditor\\inc\\therunaway\\uht\\casadorpawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
