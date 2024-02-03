@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\teddybear.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\x64\\projectfisheditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfish\\definitions.projectfish.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\teddybear.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\teddybear.generated.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\screenconstants.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\fishpawn.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\fishpawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

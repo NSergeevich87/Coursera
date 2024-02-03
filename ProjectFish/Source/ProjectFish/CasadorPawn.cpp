@@ -42,7 +42,7 @@ void ACasadorPawn::OnBeginOverlap(
 	bool bFromSweep, 
 	const FHitResult& SweepResult)
 {
-	if (OtherActor->ActorHasTag("Ground"))
+	if (OtherActor != nullptr && OtherActor->ActorHasTag("Ground"))
 	{
 		bJump = false;
 	}
@@ -84,8 +84,5 @@ void ACasadorPawn::JumpImpulse()
 		bJump = true;
 		FVector ForceJump{ 0.f, 0.f, ForceMagnitude };
 		StaticMeshComponent->AddImpulse(ForceJump);
-
-		FTimerHandle Timer;
-		GetWorldTimerManager().SetTimer(Timer, this, &ACasadorPawn::TimerJump, 0.25f);
 	}
 }

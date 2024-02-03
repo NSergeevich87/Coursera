@@ -31,6 +31,8 @@ void AFishPawn::BeginPlay()
 		StaticMeshComponent = StaticMeshComponents[0];
 		StaticMeshComponent->OnComponentBeginOverlap.AddDynamic(this, &AFishPawn::OnOverlapBegin);
 	}
+
+	ResetToStartState();
 }
 
 // Called every frame
@@ -49,6 +51,11 @@ void AFishPawn::Tick(float DeltaTime)
 			ScreenConstants::Right - HalfCollisionWidth);
 
 		SetActorLocation(NewLocation);
+	}
+
+	if (GetActorLocation().Z > ScreenConstants::Top + HalfCollisionHeight)
+	{
+		ResetToStartState();
 	}
 }
 
@@ -86,5 +93,20 @@ void AFishPawn::OnOverlapBegin(
 	bool bFromSweep, 
 	const FHitResult& SweepResult)
 {
+	if (OtherActor != nullptr && OtherActor->ActorHasTag("TeddyBear"))
+	{
+		ResetToStartState();
+	}
+}
+
+void AFishPawn::ResetToStartState()
+{
+	FVector NewLocation{ 0 };
+	NewLocation.Z = ScreenConstants::Bottom + HalfCollisionHeight;
+	SetActorLocation(NewLocation);
+
+	WasShot = false;
+
+	StaticMeshComponent->SetAllPhysicsLinearVelocity(FVector::ZeroVector);
 }
 

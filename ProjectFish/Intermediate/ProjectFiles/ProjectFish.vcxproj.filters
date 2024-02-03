@@ -24,6 +24,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -79,6 +82,18 @@
       <Filter>Source\ProjectFish</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectFish\ScreenConstants.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\TeddyBear.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\TeddyBear.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\TeddyBearsSpawner.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\TeddyBearsSpawner.h">
       <Filter>Source\ProjectFish</Filter>
     </ClInclude>
   </ItemGroup>
