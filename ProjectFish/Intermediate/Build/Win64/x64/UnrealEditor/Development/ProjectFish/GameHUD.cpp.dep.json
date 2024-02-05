@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\gamehud.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\x64\\projectfisheditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfish\\definitions.projectfish.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\gamehud.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\debugtextinfo.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\hud.generated.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\gamehud.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

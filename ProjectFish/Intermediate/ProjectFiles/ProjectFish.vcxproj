@@ -145,6 +145,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectFish\FishPlayerController.h"/>
+    <ClCompile Include="..\..\Source\ProjectFish\GameHUD.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\GameHUD.h"/>
     <None Include="..\..\Source\ProjectFish\ProjectFish.Build.cs"/>
     <ClCompile Include="..\..\Source\ProjectFish\ProjectFish.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

@@ -5,6 +5,9 @@
 
 #include "ScreenConstants.h"
 #include "FishPawn.h"
+#include "GameHUD.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 ATeddyBear::ATeddyBear()
@@ -65,6 +68,11 @@ void ATeddyBear::OnOverlapBegin(
 			Health -= Fish->GetDamage();
 			if (Health <= 0)
 			{
+				AGameHUD* GameHud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
+				if (GameHud != nullptr)
+				{
+					GameHud->SetKills(1);
+				}
 				Destroy();
 			}
 		}

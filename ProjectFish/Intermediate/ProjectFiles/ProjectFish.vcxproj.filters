@@ -63,6 +63,12 @@
     <ClInclude Include="..\..\Source\ProjectFish\FishPlayerController.h">
       <Filter>Source\ProjectFish</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\GameHUD.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\GameHUD.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ProjectFish\ProjectFish.Build.cs">
       <Filter>Source\ProjectFish</Filter>
     </None>
