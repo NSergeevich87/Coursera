@@ -48,6 +48,12 @@
     <ClInclude Include="..\..\Source\TheRunaway\CasadorPawn.h">
       <Filter>Source\TheRunaway</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TheRunaway\GameHUD.cpp">
+      <Filter>Source\TheRunaway</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheRunaway\GameHUD.h">
+      <Filter>Source\TheRunaway</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TheRunaway\ScreenConstants.cpp">
       <Filter>Source\TheRunaway</Filter>
     </ClCompile>

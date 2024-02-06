@@ -33,6 +33,7 @@ public:
 
 	void ResetPosition();
 	void GetDamage();
+	int GetHealth() const;
 	void MoveHorizontally(float ScaleValue);
 	void MoveVertically(float ScaleValue);
 

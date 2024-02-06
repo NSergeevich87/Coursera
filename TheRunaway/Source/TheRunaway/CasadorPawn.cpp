@@ -4,6 +4,8 @@
 #include "CasadorPawn.h"
 
 #include "ScreenConstants.h"
+#include "GameHUD.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ACasadorPawn::ACasadorPawn() :
@@ -75,7 +77,17 @@ void ACasadorPawn::ResetPosition()
 
 void ACasadorPawn::GetDamage()
 {
-	Health -= Damage;
+	AGameHUD* Hud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
+	if (Hud != nullptr)
+	{
+		Hud->SetEscaped();
+		Health -= Damage;
+	}
+}
+
+int ACasadorPawn::GetHealth() const
+{
+	return Health;
 }
 
 void ACasadorPawn::MoveHorizontally(float ScaleValue)
