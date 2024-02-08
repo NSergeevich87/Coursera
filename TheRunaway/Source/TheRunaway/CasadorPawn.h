@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "CasadorPawn.generated.h"
@@ -22,6 +23,9 @@ private:
 public:
 	// Sets default values for this pawn's properties
 	ACasadorPawn();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	USoundCue* RunAway;
 
 protected:
 	// Called when the game starts or when spawned

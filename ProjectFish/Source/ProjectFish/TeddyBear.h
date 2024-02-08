@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "TeddyBear.generated.h"
@@ -19,6 +20,9 @@ private:
 public:	
 	// Sets default values for this actor's properties
 	ATeddyBear();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	USoundCue* TeddyDeath;
 
 protected:
 	// Called when the game starts or when spawned

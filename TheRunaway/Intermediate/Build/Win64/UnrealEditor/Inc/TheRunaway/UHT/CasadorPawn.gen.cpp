@@ -10,6 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCasadorPawn() {}
 // Cross Module References
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
+	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 	THERUNAWAY_API UClass* Z_Construct_UClass_ACasadorPawn();
 	THERUNAWAY_API UClass* Z_Construct_UClass_ACasadorPawn_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_TheRunaway();
@@ -28,6 +29,10 @@ void EmptyLinkFunctionForGeneratedCodeCasadorPawn() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RunAway_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_RunAway;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[];
 #endif
@@ -49,6 +54,13 @@ void EmptyLinkFunctionForGeneratedCodeCasadorPawn() {}
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACasadorPawn_Statics::NewProp_RunAway_MetaData[] = {
+		{ "Category", "Audio" },
+		{ "ModuleRelativePath", "CasadorPawn.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACasadorPawn_Statics::NewProp_RunAway = { "RunAway", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACasadorPawn, RunAway), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACasadorPawn_Statics::NewProp_RunAway_MetaData), Z_Construct_UClass_ACasadorPawn_Statics::NewProp_RunAway_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACasadorPawn_Statics::NewProp_Damage_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Combat" },
@@ -57,6 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeCasadorPawn() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACasadorPawn_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACasadorPawn, Damage), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACasadorPawn_Statics::NewProp_Damage_MetaData), Z_Construct_UClass_ACasadorPawn_Statics::NewProp_Damage_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACasadorPawn_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACasadorPawn_Statics::NewProp_RunAway,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACasadorPawn_Statics::NewProp_Damage,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACasadorPawn_Statics::StaticCppClassTypeInfo = {
@@ -97,9 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeCasadorPawn() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TheRunaway_Source_TheRunaway_CasadorPawn_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACasadorPawn, ACasadorPawn::StaticClass, TEXT("ACasadorPawn"), &Z_Registration_Info_UClass_ACasadorPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACasadorPawn), 2853809581U) },
+		{ Z_Construct_UClass_ACasadorPawn, ACasadorPawn::StaticClass, TEXT("ACasadorPawn"), &Z_Registration_Info_UClass_ACasadorPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACasadorPawn), 3242393964U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TheRunaway_Source_TheRunaway_CasadorPawn_h_3985244419(TEXT("/Script/TheRunaway"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TheRunaway_Source_TheRunaway_CasadorPawn_h_4201429441(TEXT("/Script/TheRunaway"),
 		Z_CompiledInDeferFile_FID_TheRunaway_Source_TheRunaway_CasadorPawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TheRunaway_Source_TheRunaway_CasadorPawn_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

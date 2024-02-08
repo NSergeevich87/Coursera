@@ -8,7 +8,6 @@
 #include "GameHUD.h"
 #include "Kismet/GameplayStatics.h"
 
-
 // Sets default values
 ATeddyBear::ATeddyBear()
 {
@@ -68,6 +67,7 @@ void ATeddyBear::OnOverlapBegin(
 			Health -= Fish->GetDamage();
 			if (Health <= 0)
 			{
+				UGameplayStatics::PlaySound2D(this, TeddyDeath);
 				AGameHUD* GameHud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
 				if (GameHud != nullptr)
 				{

@@ -57,6 +57,7 @@ void ACasadorPawn::Tick(float DeltaTime)
 
 	if (bOffScreen())
 	{
+		UGameplayStatics::PlaySound2D(this, RunAway);
 		ResetPosition();
 		GetDamage();
 		if (Health <= 0)
