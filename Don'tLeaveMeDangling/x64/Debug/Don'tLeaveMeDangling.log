@@ -1,7 +1,0 @@
-﻿  Don'tLeaveMeDangling.cpp
-D:\Unreal\Projects\Coursera\Don'tLeaveMeDangling\Don'tLeaveMeDangling.cpp(28,10): warning C4305: '=': truncation from 'double' to '_Ty2'
-D:\Unreal\Projects\Coursera\Don'tLeaveMeDangling\Don'tLeaveMeDangling.cpp(28,10): warning C4305:         with
-D:\Unreal\Projects\Coursera\Don'tLeaveMeDangling\Don'tLeaveMeDangling.cpp(28,10): warning C4305:         [
-D:\Unreal\Projects\Coursera\Don'tLeaveMeDangling\Don'tLeaveMeDangling.cpp(28,10): warning C4305:             _Ty2=float
-D:\Unreal\Projects\Coursera\Don'tLeaveMeDangling\Don'tLeaveMeDangling.cpp(28,10): warning C4305:         ]
-  Don'tLeaveMeDangling.vcxproj -> D:\Unreal\Projects\Coursera\Don'tLeaveMeDangling\x64\Debug\Don'tLeaveMeDangling.exe

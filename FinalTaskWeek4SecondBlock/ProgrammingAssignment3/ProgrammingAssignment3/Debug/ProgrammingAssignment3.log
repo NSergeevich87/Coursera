@@ -1,7 +1,0 @@
-﻿  ProgrammingAssignment3.cpp
-D:\Unreal\Projects\Coursera\FinalTaskWeek4SecondBlock\ProgrammingAssignment3\ProgrammingAssignment3\Deck.h(23,21): warning C4251: 'consoleCards::Deck::Cards': class 'std::vector<consoleCards::Card,std::allocator<consoleCards::Card>>' needs to have dll-interface to be used by clients of class 'consoleCards::Deck'
-  (compiling source file 'ProgrammingAssignment3.cpp')
-  D:\Unreal\Projects\Coursera\FinalTaskWeek4SecondBlock\ProgrammingAssignment3\ProgrammingAssignment3\Deck.h(23,8):
-  see declaration of 'std::vector<consoleCards::Card,std::allocator<consoleCards::Card>>'
-  
-  ProgrammingAssignment3.vcxproj -> D:\Unreal\Projects\Coursera\FinalTaskWeek4SecondBlock\ProgrammingAssignment3\Debug\ProgrammingAssignment3.exe

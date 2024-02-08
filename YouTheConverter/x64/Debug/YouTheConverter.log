@@ -1,3 +1,0 @@
-﻿  YouTheConverter.cpp
-D:\Unreal\Projects\Coursera\YouTheConverter\YouTheConverter.cpp(51,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  YouTheConverter.vcxproj -> D:\Unreal\Projects\Coursera\YouTheConverter\x64\Debug\YouTheConverter.exe

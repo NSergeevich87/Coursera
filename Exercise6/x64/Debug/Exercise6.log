@@ -1,3 +1,0 @@
-﻿  Exercise6.cpp
-D:\Unreal\Projects\Coursera\Exercise6\Exercise6.cpp(19,14): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Exercise6.vcxproj -> D:\Unreal\Projects\Coursera\Exercise6\x64\Debug\Exercise6.exe
