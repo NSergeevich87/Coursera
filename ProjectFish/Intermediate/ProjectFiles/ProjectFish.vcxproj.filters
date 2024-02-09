@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\ConfigurationData.csv" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -49,6 +50,15 @@
       <Filter>Source\ProjectFish</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectFish\CasadorPawn.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\ConfigurationDataActor.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\ConfigurationDataActor.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProjectFish\ConfigurationDataStruct.h">
       <Filter>Source\ProjectFish</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ProjectFish\FishPawn.cpp">

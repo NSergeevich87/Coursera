@@ -1,0 +1,9 @@
+{
+	"ColumnWidths":
+	{
+		"FishMoveAmountPerSecond": 208,
+		"FishForceMagnitude": 149,
+		"TeddyMoveAmountPerSecond": 213,
+		"MinSpawnDelaySeconds": 190
+	}
+}
