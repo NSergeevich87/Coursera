@@ -3,6 +3,7 @@
 
 #include "FishPawn.h"
 #include "ScreenConstants.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AFishPawn::AFishPawn()
@@ -32,6 +33,13 @@ void AFishPawn::BeginPlay()
 		StaticMeshComponent->OnComponentBeginOverlap.AddDynamic(this, &AFishPawn::OnOverlapBegin);
 	}
 
+	TArray<AActor*> ConfigurationDataActors{};
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), "ConfigurationDataActor", ConfigurationDataActors);
+	if (ConfigurationDataActors.Num() > 0)
+	{
+		ConfigurationData = (AConfigurationDataActor*)ConfigurationDataActors[0];
+	}
+
 	ResetToStartState();
 }
 
@@ -44,7 +52,7 @@ void AFishPawn::Tick(float DeltaTime)
 	if (PendingMovementInput.Y != 0)
 	{
 		FVector NewLocation = GetActorLocation();
-		NewLocation.Y += PendingMovementInput.Y * MoveAmountPerSecond * DeltaTime;
+		NewLocation.Y += PendingMovementInput.Y * ConfigurationData->GetFishMoveAmountPerSecond() * DeltaTime;
 		NewLocation.Y = FMath::Clamp(
 			NewLocation.Y,
 			ScreenConstants::Left + HalfCollisionWidth,
@@ -80,7 +88,7 @@ void AFishPawn::Shoot()
 	if (!WasShot)
 	{
 		WasShot = true;
-		FVector ForceVector{ 0, 0, ForceMagnitude };
+		FVector ForceVector{ 0, 0, ConfigurationData->GetFishForceMagnitude() };
 		StaticMeshComponent->AddImpulse(ForceVector);
 	}
 }

@@ -7,6 +7,10 @@
         "Includes": [
             "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfish\\definitions.projectfish.h",
             "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\teddybearsspawner.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\configurationdataactor.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\configurationdatastruct.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\configurationdatastruct.generated.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\configurationdataactor.generated.h",
             "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\teddybear.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\sound\\soundcue.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\audioextensions\\public\\iaudioparametertransmitter.h",
@@ -14,7 +18,17 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\soundnode.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\soundcue.generated.h",
             "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\teddybear.generated.h",
-            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\teddybearsspawner.generated.h"
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\teddybearsspawner.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

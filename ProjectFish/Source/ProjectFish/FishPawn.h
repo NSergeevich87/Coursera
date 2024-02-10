@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "ConfigurationDataActor.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "FishPawn.generated.h"
@@ -13,12 +14,12 @@ class PROJECTFISH_API AFishPawn : public APawn
 
 private:
 	// Move variables
-	const float MoveAmountPerSecond{ 100 };
+	//const float MoveAmountPerSecond{ 100 };
 	float HalfCollisionHeight{};
 	float HalfCollisionWidth{};
 
 	// Shooting support
-	const float ForceMagnitude{ 300 };
+	//const float ForceMagnitude{ 300 };
 	bool WasShot{ false };
 
 	// damage support
@@ -26,6 +27,7 @@ private:
 
 	// MeshComponent
 	UStaticMeshComponent* StaticMeshComponent{};
+	AConfigurationDataActor* ConfigurationData{};
 
 public:
 	// Sets default values for this pawn's properties

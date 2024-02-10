@@ -2,10 +2,11 @@
 
 
 #include "TeddyBearsSpawner.h"
+#include "Kismet/GameplayStatics.h"
 
 void ATeddyBearsSpawner::StartTimer()
 {
-	float RateSpawn = FMath::RandRange(TimerDelayMin, TimerDelayMax);
+	float RateSpawn = FMath::RandRange(ConfigurationData->GetMinSpawnDelaySeconds(), ConfigurationData->GetMaxSpawnDelaySeconds());
 
 	FTimerHandle Timer;
 	GetWorldTimerManager().SetTimer(Timer, this, &ATeddyBearsSpawner::StartSpawn, RateSpawn);
@@ -24,6 +25,13 @@ void ATeddyBearsSpawner::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	TArray<AActor*> ConfigurationDataActors{};
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), "ConfigurationDataActor", ConfigurationDataActors);
+	if (ConfigurationDataActors.Num() > 0)
+	{
+		ConfigurationData = (AConfigurationDataActor*)ConfigurationDataActors[0];
+	}
+
 	StartTimer();
 }
 

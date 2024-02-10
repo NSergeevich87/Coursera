@@ -22,6 +22,10 @@ public:
 	UDataTable* ConfigurationDataTable;
 
 	float GetFishMoveAmountPerSecond();
+	float GetFishForceMagnitude();
+	float GetTeddyMoveAmountPerSecond();
+	float GetMinSpawnDelaySeconds();
+	float GetMaxSpawnDelaySeconds();
 
 public:	
 	// Sets default values for this actor's properties

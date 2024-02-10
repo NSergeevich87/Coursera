@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "ConfigurationDataActor.h"
 #include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -13,9 +14,11 @@ class PROJECTFISH_API ATeddyBear : public AActor
 	GENERATED_BODY()
 
 private:
-	const float CaidaVelocity{ 60 };
+	//const float CaidaVelocity{ 60 };
 	float HalfCollisionHeight;
 	int Health{ 100 };
+
+	AConfigurationDataActor* ConfigurationData;
 	
 public:	
 	// Sets default values for this actor's properties

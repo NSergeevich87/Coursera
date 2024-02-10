@@ -8,6 +8,26 @@ float AConfigurationDataActor::GetFishMoveAmountPerSecond()
 	return ConfigurationDataRow->FishMoveAmountPerSecond;
 }
 
+float AConfigurationDataActor::GetFishForceMagnitude()
+{
+	return ConfigurationDataRow->FishForceMagnitude;
+}
+
+float AConfigurationDataActor::GetTeddyMoveAmountPerSecond()
+{
+	return ConfigurationDataRow->TeddyMoveAmountPerSecond;
+}
+
+float AConfigurationDataActor::GetMinSpawnDelaySeconds()
+{
+	return ConfigurationDataRow->MinSpawnDelaySeconds;
+}
+
+float AConfigurationDataActor::GetMaxSpawnDelaySeconds()
+{
+	return ConfigurationDataRow->MaxSpawnDelaySeconds;
+}
+
 // Sets default values
 AConfigurationDataActor::AConfigurationDataActor()
 {

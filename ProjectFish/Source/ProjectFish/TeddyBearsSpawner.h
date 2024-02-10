@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "ConfigurationDataActor.h"
 #include "TeddyBear.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -13,13 +14,15 @@ class PROJECTFISH_API ATeddyBearsSpawner : public AActor
 	GENERATED_BODY()
 
 private:
-	const float TimerDelayMin{ 2 };
-	const float TimerDelayMax{ 4 };
+	//const float TimerDelayMin{ 2 };
+	//const float TimerDelayMax{ 4 };
 	const float LeftSpawnBorde{ -200 };
 	const float RightSpawnBorde{ 200 };
 	const float SpawnZ{ 150 };
 
 	void StartTimer();
+
+	AConfigurationDataActor* ConfigurationData;
 
 public:	
 	// Sets default values for this actor's properties

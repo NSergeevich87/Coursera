@@ -34,6 +34,13 @@ void ATeddyBear::BeginPlay()
 		StaticMesh = MeshComponents[0];
 		StaticMesh->OnComponentBeginOverlap.AddDynamic(this, &ATeddyBear::OnOverlapBegin);
 	}
+
+	TArray<AActor*> ConfigurationDataActors{};
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), "ConfigurationDataActor", ConfigurationDataActors);
+	if (ConfigurationDataActors.Num() > 0)
+	{
+		ConfigurationData = (AConfigurationDataActor*)ConfigurationDataActors[0];
+	}
 }
 
 // Called every frame
@@ -42,7 +49,7 @@ void ATeddyBear::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	FVector Location = GetActorLocation();
-	Location.Z -= CaidaVelocity * DeltaTime;
+	Location.Z -= ConfigurationData->GetTeddyMoveAmountPerSecond() * DeltaTime;
 	SetActorLocation(Location);
 
 	if (GetActorLocation().Z < ScreenConstants::Bottom - HalfCollisionHeight)
