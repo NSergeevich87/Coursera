@@ -2,6 +2,29 @@
 
 
 #include "GameHUD.h"
+#include "Kismet/GameplayStatics.h"
+
+AGameHUD::AGameHUD()
+{
+	// try loading data
+	SaveGameInstance = Cast<UProjectFishSaveGame>(
+		UGameplayStatics::LoadGameFromSlot("FishShooterSaveSlot", 0)
+	);
+	if (SaveGameInstance != nullptr)
+	{
+		Kills = SaveGameInstance->NumKills;
+	}
+	else
+	{
+		Kills = 0;
+		SaveGameInstance = Cast<UProjectFishSaveGame>(
+			UGameplayStatics::CreateSaveGameObject(UProjectFishSaveGame::StaticClass())
+		);
+	}
+	// reset kills to 0
+	//SaveGameInstance->NumKills = 0;
+	//UGameplayStatics::SaveGameToSlot(SaveGameInstance, "FishShooterSaveSlot", 0);
+}
 
 void AGameHUD::DrawHUD()
 {
@@ -19,4 +42,7 @@ void AGameHUD::DrawHUD()
 void AGameHUD::SetKills(int value)
 {
 	Kills += value;
+
+	SaveGameInstance->NumKills = Kills;
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, "FishShooterSaveSlot", 0);
 }

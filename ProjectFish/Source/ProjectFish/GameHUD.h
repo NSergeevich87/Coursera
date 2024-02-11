@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "ProjectFishSaveGame.h"
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
 #include "GameHUD.generated.h"
@@ -20,7 +21,11 @@ private:
 	const FString StartText{ "Kills: " };
 	int Kills{ 0 };
 
+	UProjectFishSaveGame* SaveGameInstance;
+
 public:
+	AGameHUD();
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = HUDFont)
 	UFont* HudFont;
 

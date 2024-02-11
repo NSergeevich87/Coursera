@@ -7,6 +7,10 @@
         "Includes": [
             "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfish\\definitions.projectfish.h",
             "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\gamehud.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\source\\projectfish\\projectfishsavegame.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\savegame.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\savegame.generated.h",
+            "d:\\unreal\\projects\\coursera\\projectfish\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfish\\uht\\projectfishsavegame.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",

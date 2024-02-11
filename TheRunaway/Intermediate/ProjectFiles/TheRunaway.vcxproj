@@ -110,9 +110,11 @@
     <None Include="..\..\Source\TheRunaway.Target.cs"/>
     <None Include="..\..\Source\TheRunawayEditor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\RanawayConfigurationData.csv"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultGameplayTags.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <ClCompile Include="..\..\Source\TheRunaway\CasadorController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -132,6 +134,19 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\TheRunaway\CasadorPawn.h"/>
+    <ClCompile Include="..\..\Source\TheRunaway\CasadorSaveGame.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheRunaway\CasadorSaveGame.h"/>
+    <ClCompile Include="..\..\Source\TheRunaway\ConfigurationDataActor.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheRunaway\ConfigurationDataActor.h"/>
+    <ClInclude Include="..\..\Source\TheRunaway\ConfigurationDataStruct.h"/>
     <ClCompile Include="..\..\Source\TheRunaway\GameHUD.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>

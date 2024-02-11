@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheRunawayModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daeff64d8d62b07647145ac6670fe4dd7814046e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c43711e2072dbfbfdda994ddfdd56be8b2a3fef8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheRunawayModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheRunawayModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

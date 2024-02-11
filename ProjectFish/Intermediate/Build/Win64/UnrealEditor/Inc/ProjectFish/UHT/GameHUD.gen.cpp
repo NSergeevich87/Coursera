@@ -94,7 +94,6 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 	{
 		return AGameHUD::StaticClass();
 	}
-	AGameHUD::AGameHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGameHUD);
 	AGameHUD::~AGameHUD() {}
 	struct Z_CompiledInDeferFile_FID_ProjectFish_Source_ProjectFish_GameHUD_h_Statics

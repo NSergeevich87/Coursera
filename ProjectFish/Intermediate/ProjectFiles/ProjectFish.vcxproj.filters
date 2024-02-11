@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
-    <None Include="..\..\ConfigurationData.csv" />
+    <None Include="..\..\ProjectFishConfigurationData.csv" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -92,6 +92,12 @@
       <Filter>Source\ProjectFish</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectFish\ProjectFishGameModeBase.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\ProjectFishSaveGame.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\ProjectFishSaveGame.h">
       <Filter>Source\ProjectFish</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ProjectFish\ScreenConstants.cpp">

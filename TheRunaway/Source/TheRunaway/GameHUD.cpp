@@ -3,6 +3,29 @@
 
 #include "GameHUD.h"
 #include "CasadorPawn.h"
+#include "Kismet/GameplayStatics.h"
+
+AGameHUD::AGameHUD()
+{
+	SaveGameInstance = Cast<UCasadorSaveGame>(UGameplayStatics::LoadGameFromSlot("CasadorZeroDataSlot", 0));
+	if (SaveGameInstance != nullptr)
+	{
+		EscapedCounter = SaveGameInstance->CasadorEscaped;
+	}
+	else
+	{
+		EscapedCounter = 0;
+		SaveGameInstance = Cast<UCasadorSaveGame>(
+			UGameplayStatics::CreateSaveGameObject(UCasadorSaveGame::StaticClass())
+		);
+	}
+
+	// for reset data in savegameinstance
+
+	/*SaveGameInstance->CasadorHealth = 0;
+	SaveGameInstance->CasadorEscaped = 0;
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, "CasadorZeroDataSlot", 0);*/
+}
 
 void AGameHUD::DrawHUD()
 {
@@ -27,4 +50,7 @@ void AGameHUD::DrawHUD()
 void AGameHUD::SetEscaped()
 {
 	EscapedCounter++;
+
+	SaveGameInstance->CasadorEscaped = EscapedCounter;
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, "CasadorZeroDataSlot", 0);
 }

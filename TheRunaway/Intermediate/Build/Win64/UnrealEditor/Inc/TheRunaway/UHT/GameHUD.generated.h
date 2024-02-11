@@ -14,12 +14,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THERUNAWAY_GameHUD_generated_h
 
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_SPARSE_DATA
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_ACCESSORS
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_SPARSE_DATA
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_ACCESSORS
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGameHUD(); \
 	friend struct Z_Construct_UClass_AGameHUD_Statics; \
@@ -28,9 +28,7 @@ public: \
 	DECLARE_SERIALIZER(AGameHUD)
 
 
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AGameHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGameHUD(AGameHUD&&); \
@@ -38,21 +36,21 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AGameHUD); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGameHUD); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGameHUD) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGameHUD) \
 	NO_API virtual ~AGameHUD();
 
 
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_12_PROLOG
-#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_GENERATED_BODY \
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_13_PROLOG
+#define FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_SPARSE_DATA \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_ACCESSORS \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_INCLASS_NO_PURE_DECLS \
-	FID_TheRunaway_Source_TheRunaway_GameHUD_h_15_ENHANCED_CONSTRUCTORS \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_SPARSE_DATA \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_ACCESSORS \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_INCLASS_NO_PURE_DECLS \
+	FID_TheRunaway_Source_TheRunaway_GameHUD_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

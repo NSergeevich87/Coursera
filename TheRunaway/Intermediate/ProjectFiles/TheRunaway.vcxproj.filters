@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\RanawayConfigurationData.csv" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -22,6 +23,9 @@
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultInput.ini">
@@ -46,6 +50,21 @@
       <Filter>Source\TheRunaway</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TheRunaway\CasadorPawn.h">
+      <Filter>Source\TheRunaway</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheRunaway\CasadorSaveGame.cpp">
+      <Filter>Source\TheRunaway</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheRunaway\CasadorSaveGame.h">
+      <Filter>Source\TheRunaway</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheRunaway\ConfigurationDataActor.cpp">
+      <Filter>Source\TheRunaway</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheRunaway\ConfigurationDataActor.h">
+      <Filter>Source\TheRunaway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TheRunaway\ConfigurationDataStruct.h">
       <Filter>Source\TheRunaway</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TheRunaway\GameHUD.cpp">

@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "CasadorSaveGame.h"
+#include "ConfigurationDataActor.h"
 #include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -13,12 +15,16 @@ class THERUNAWAY_API ACasadorPawn : public APawn
 	GENERATED_BODY()
 
 private:
+	bool bSetHealth{ false };
 	float HalfMeshWidth;
 	float HalfMeshHeight;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Casador Param", meta = (AllowPrivateAccess = "true"))
 	float Health{ 100 };
-	const float MoveSpeed{ 100 };
 
 	class UStaticMeshComponent* CasadorMesh;
+	AConfigurationDataActor* ConfigurationData{};
+	UCasadorSaveGame* SaveGameInstance;
 
 public:
 	// Sets default values for this pawn's properties
@@ -35,15 +41,14 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void SetHealthFromData();
 	void ResetPosition();
 	void GetDamage();
-	int GetHealth() const;
+	float GetHealth();
+	void SetHealth(float Hp);
 	void MoveHorizontally(float ScaleValue);
 	void MoveVertically(float ScaleValue);
 
 private:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
-	float Damage;
-
 	bool bOffScreen();
 };
