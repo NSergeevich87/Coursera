@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\mymovelt\\intermediate\\build\\win64\\unrealeditor\\inc\\mymovelt\\uht\\moveltgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\mymovelt\\intermediate\\build\\win64\\x64\\mymovelteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\mymovelt\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mymovelt\\definitions.mymovelt.h",
+            "d:\\unreal\\projects\\coursera\\mymovelt\\source\\mymovelt\\moveltgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unreal\\projects\\coursera\\mymovelt\\intermediate\\build\\win64\\unrealeditor\\inc\\mymovelt\\uht\\moveltgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

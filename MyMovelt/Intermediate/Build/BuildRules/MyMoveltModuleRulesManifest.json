@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal\\Projects\\Coursera\\MyMovelt\\Source\\MyMovelt\\MyMovelt.Build.cs",
+		"D:\\Unreal\\Projects\\Coursera\\MyMovelt\\Source\\MyMovelt.Target.cs",
+		"D:\\Unreal\\Projects\\Coursera\\MyMovelt\\Source\\MyMoveltEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

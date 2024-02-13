@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyMovelt",
+			"Path": "..\\Source\\MyMovelt.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyMoveltEditor",
+			"Path": "..\\Source\\MyMoveltEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
