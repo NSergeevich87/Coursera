@@ -1,4 +1,10 @@
 D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\BadLootActor.h
-D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\GoodLootActor.h
-D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\GameHUD.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\LootTeddyBearActor.h
 D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\LootActor.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\GoodLootActor.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\NoLootTeddyBearActor.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\TeddyBearActor.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\BearsGameModeBase.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\GameHUD.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\RandomGoodLootTeddyBearActor.h
+D:\Unreal\Projects\Coursera\BearsGame\Source\BearsGame\RandomBadLootTeddyBearActor.h

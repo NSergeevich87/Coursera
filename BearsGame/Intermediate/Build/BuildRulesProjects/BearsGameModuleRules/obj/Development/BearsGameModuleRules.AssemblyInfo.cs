@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BearsGameModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5fe822c387d3feb0b75604bdf5d381368d224f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b61ae7555b7a3374010962a49ddcec24b19b7e3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BearsGameModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BearsGameModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -86,7 +86,11 @@
 				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Art/T_Yellow_Teddy_Bear_D.uasset",
 				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Art/T_Yellow_Teddy_Bear_N.uasset",
 				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Blueprints/BP_BadLootActor.uasset",
-				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Blueprints/BP_GoodLootActor.uasset"
+				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Blueprints/BP_GoodLootActor.uasset",
+				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Fonts/BearGameFont.uasset",
+				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Blueprints/BP_GameHUD.uasset",
+				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Fonts/PressStart2P-Regular.uasset",
+				"D:/Unreal/Projects/Coursera/BearsGame/Content/_Game/Blueprints/BP_BearsGameModeBase.uasset"
 			]
 		}
 	]

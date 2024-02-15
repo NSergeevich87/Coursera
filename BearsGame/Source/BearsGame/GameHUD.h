@@ -15,7 +15,7 @@ class BEARSGAME_API AGameHUD : public AHUD
 	GENERATED_BODY()
 	
 private:
-	const float OffsetUp{ 50 };
+	const float OffsetUp{ 150 };
 	const float OffsetLeft{ 75 };
 	const FString ScoreText{ "Score: " };
 	int Score{ 0 };

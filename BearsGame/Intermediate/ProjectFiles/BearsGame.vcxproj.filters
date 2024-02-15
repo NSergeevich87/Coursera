@@ -24,6 +24,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -45,6 +48,12 @@
     <ClInclude Include="..\..\Source\BearsGame\BearsGame.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\BearsGameModeBase.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\BearsGameModeBase.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\GameHUD.cpp">
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
@@ -61,6 +70,42 @@
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BearsGame\LootActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\LootTeddyBearActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\LootTeddyBearActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\NoLootTeddyBearActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\NoLootTeddyBearActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\RandomBadLootTeddyBearActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\RandomBadLootTeddyBearActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\RandomGoodLootTeddyBearActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\RandomGoodLootTeddyBearActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\ScreenConstants.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\ScreenConstants.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\TeddyBearActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\TeddyBearActor.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
   </ItemGroup>
