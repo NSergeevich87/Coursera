@@ -54,6 +54,24 @@
     <ClInclude Include="..\..\Source\BearsGame\BearsGameModeBase.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\BearsGamePlayerController.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\BearsGamePlayerController.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\ChainsawLauncherActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\ChainsawLauncherActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\ChainsawProjectileActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\ChainsawProjectileActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\GameHUD.cpp">
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
@@ -64,6 +82,12 @@
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BearsGame\GoodLootActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\LauncherActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\LauncherActor.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\LootActor.cpp">
@@ -84,6 +108,24 @@
     <ClInclude Include="..\..\Source\BearsGame\NoLootTeddyBearActor.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\PirateLauncherActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\PirateLauncherActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\PirateProjectileActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\PirateProjectileActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\ProjectileActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\ProjectileActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\RandomBadLootTeddyBearActor.cpp">
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
@@ -102,10 +144,28 @@
     <ClInclude Include="..\..\Source\BearsGame\ScreenConstants.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\SpawnLounchers.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\SpawnLounchers.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\TeddyBearActor.cpp">
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BearsGame\TeddyBearActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\ZombieLauncherActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\ZombieLauncherActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\ZombieProjectileActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\ZombieProjectileActor.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
   </ItemGroup>

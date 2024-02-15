@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\zombieprojectileactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\x64\\bearsgameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bearsgame\\definitions.bearsgame.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\zombieprojectileactor.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\projectileactor.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\projectileactor.generated.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\zombieprojectileactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
