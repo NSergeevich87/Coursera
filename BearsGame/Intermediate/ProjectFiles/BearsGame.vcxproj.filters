@@ -72,6 +72,18 @@
     <ClInclude Include="..\..\Source\BearsGame\ChainsawProjectileActor.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\DelegateListenerActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\DelegateListenerActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\DelegateTalkerActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\DelegateTalkerActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\GameHUD.cpp">
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
@@ -100,6 +112,18 @@
       <Filter>Source\BearsGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BearsGame\LootTeddyBearActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\MulticastDelegateActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\MulticastDelegateActor.h">
+      <Filter>Source\BearsGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BearsGame\MulticastDelegateListenerActor.cpp">
+      <Filter>Source\BearsGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BearsGame\MulticastDelegateListenerActor.h">
       <Filter>Source\BearsGame</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BearsGame\NoLootTeddyBearActor.cpp">
