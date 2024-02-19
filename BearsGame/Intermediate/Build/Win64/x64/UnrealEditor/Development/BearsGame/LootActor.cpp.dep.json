@@ -1,0 +1,43 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\lootactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\x64\\bearsgameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bearsgame\\definitions.bearsgame.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\lootactor.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\delegatedeclarations.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\delegatedeclarations.generated.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\pointsaddedinvokerinterface.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\pointsaddedinvokerinterface.generated.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\lootactor.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\eventmanageractor.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\source\\bearsgame\\gamehud.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\debugtextinfo.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\hud.generated.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\gamehud.generated.h",
+            "d:\\unreal\\projects\\coursera\\bearsgame\\intermediate\\build\\win64\\unrealeditor\\inc\\bearsgame\\uht\\eventmanageractor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

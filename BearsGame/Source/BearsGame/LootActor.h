@@ -2,17 +2,23 @@
 
 #pragma once
 
+#include "DelegateDeclarations.h"
+#include "PointsAddedInvokerInterface.h"
+
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "LootActor.generated.h"
 
 UCLASS(Abstract)
-class BEARSGAME_API ALootActor : public AActor
+class BEARSGAME_API ALootActor : public AActor, public IPointsAddedInvokerInterface
 {
 	GENERATED_BODY()
 	
 private:
 	int LootDestroyPoints{ 0 };
+
+	//event support
+	FPointsAddedEvent PointsAddedEvent;
 
 protected:
 	virtual void ProcessTeddyBearCollision(class AActor* OtherActor) 
@@ -30,6 +36,19 @@ public:
 		int32 OtherBodyIndex,
 		bool bFromSweep,
 		const FHitResult& SweepResult);
+
+	/**
+	 * Called when actor is being removed from level
+	 * @param EndPlayReason why the actor is being removed
+	*/
+	UFUNCTION()
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
+	/**
+	 * Gets the points added event for this invoker
+	 * @return points added event
+	*/
+	virtual FPointsAddedEvent& GetPointsAddedEvent() override;
 
 public:	
 	// Sets default values for this actor's properties

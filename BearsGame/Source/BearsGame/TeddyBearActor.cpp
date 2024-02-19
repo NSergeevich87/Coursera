@@ -4,8 +4,9 @@
 #include "TeddyBearActor.h"
 
 #include "Kismet/GameplayStatics.h"
-#include "GameHUD.h"
+//#include "GameHUD.h"
 #include "ScreenConstants.h"
+#include "EventManagerActor.h"
 
 float ATeddyBearActor::GetHalfCollisionWidth()
 {
@@ -19,11 +20,14 @@ void ATeddyBearActor::SetTeddyBearPoints(int Points)
 
 void ATeddyBearActor::AddTeddyBearPointsToHud()
 {
-	AGameHUD* Hud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
+	// broadcast event to add points
+	PointsAddedEvent.Broadcast(TeddyBearPoints);
+
+	/*AGameHUD* Hud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
 	if (Hud != nullptr)
 	{
 		Hud->AddScore(TeddyBearPoints);
-	}
+	}*/
 }
 
 void ATeddyBearActor::OnOverlapBegin(
@@ -38,6 +42,26 @@ void ATeddyBearActor::OnOverlapBegin(
 	{
 		ProcessProjectileCollision();
 	}
+}
+
+void ATeddyBearActor::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	// remove from event manager
+	TArray<AActor*> TaggedActors;
+	UGameplayStatics::GetAllActorsWithTag(
+		GetWorld(), "EventManager", TaggedActors);
+	if (TaggedActors.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(
+			TaggedActors[0]);
+		EventManager->RemoveInvoker(this);
+	}
+}
+
+FPointsAddedEvent& ATeddyBearActor::GetPointsAddedEvent()
+{
+	// TODO: insert return statement here
+	return PointsAddedEvent;
 }
 
 // Sets default values
@@ -65,6 +89,17 @@ void ATeddyBearActor::BeginPlay()
 	{
 		StaticMeshComponent = StaticMeshComponents[0];
 		StaticMeshComponent->OnComponentBeginOverlap.AddDynamic(this, &ATeddyBearActor::OnOverlapBegin);
+	}
+
+	// add to event manager
+	TArray<AActor*> TaggedActors;
+	UGameplayStatics::GetAllActorsWithTag(
+		GetWorld(), "EventManager", TaggedActors);
+	if (TaggedActors.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(
+			TaggedActors[0]);
+		EventManager->AddInvoker(this);
 	}
 }
 

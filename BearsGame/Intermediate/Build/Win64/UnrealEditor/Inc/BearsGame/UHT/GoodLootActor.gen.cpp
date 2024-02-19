@@ -83,9 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeGoodLootActor() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_GoodLootActor_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGoodLootActor, AGoodLootActor::StaticClass, TEXT("AGoodLootActor"), &Z_Registration_Info_UClass_AGoodLootActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGoodLootActor), 1251785900U) },
+		{ Z_Construct_UClass_AGoodLootActor, AGoodLootActor::StaticClass, TEXT("AGoodLootActor"), &Z_Registration_Info_UClass_AGoodLootActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGoodLootActor), 1518705244U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_GoodLootActor_h_2354521447(TEXT("/Script/BearsGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_GoodLootActor_h_4121593017(TEXT("/Script/BearsGame"),
 		Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_GoodLootActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_GoodLootActor_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

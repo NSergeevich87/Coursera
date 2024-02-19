@@ -14,12 +14,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEARSGAME_GameHUD_generated_h
 
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_SPARSE_DATA
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_ACCESSORS
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_SPARSE_DATA
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEndPlay); \
+	DECLARE_FUNCTION(execAddScore);
+
+
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_ACCESSORS
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGameHUD(); \
 	friend struct Z_Construct_UClass_AGameHUD_Statics; \
@@ -28,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AGameHUD)
 
 
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGameHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -42,17 +47,17 @@ public: \
 	NO_API virtual ~AGameHUD();
 
 
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_12_PROLOG
-#define FID_BearsGame_Source_BearsGame_GameHUD_h_15_GENERATED_BODY \
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_14_PROLOG
+#define FID_BearsGame_Source_BearsGame_GameHUD_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_SPARSE_DATA \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_ACCESSORS \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_INCLASS_NO_PURE_DECLS \
-	FID_BearsGame_Source_BearsGame_GameHUD_h_15_ENHANCED_CONSTRUCTORS \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_SPARSE_DATA \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_ACCESSORS \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_INCLASS_NO_PURE_DECLS \
+	FID_BearsGame_Source_BearsGame_GameHUD_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

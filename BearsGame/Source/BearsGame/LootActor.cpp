@@ -2,8 +2,9 @@
 
 
 #include "LootActor.h"
-#include "GameHUD.h"
+//#include "GameHUD.h"
 #include "Kismet/GameplayStatics.h"
+#include "EventManagerActor.h"
 
 void ALootActor::SetLootDestroyPoints(int Points)
 {
@@ -17,11 +18,13 @@ void ALootActor::AddLootDestroyPointsToHud()
 
 void ALootActor::AddPointsToHud(int Points)
 {
-	AGameHUD* GameHud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
+	PointsAddedEvent.Broadcast(Points);
+
+	/*AGameHUD* GameHud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
 	if (GameHud != nullptr)
 	{
 		GameHud->AddScore(Points);
-	}
+	}*/
 }
 
 void ALootActor::OnOverlapBegin(
@@ -47,6 +50,26 @@ void ALootActor::OnOverlapBegin(
 	}
 }
 
+void ALootActor::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	// remove from event manager
+	TArray<AActor*> TaggedActors;
+	UGameplayStatics::GetAllActorsWithTag(
+		GetWorld(), "EventManager", TaggedActors);
+	if (TaggedActors.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(
+			TaggedActors[0]);
+		EventManager->RemoveInvoker(this);
+	}
+}
+
+FPointsAddedEvent& ALootActor::GetPointsAddedEvent()
+{
+	// TODO: insert return statement here
+	return PointsAddedEvent;
+}
+
 // Sets default values
 ALootActor::ALootActor()
 {
@@ -68,6 +91,17 @@ void ALootActor::BeginPlay()
 	{
 		MeshComponent = MeshComponents[0];
 		MeshComponent->OnComponentBeginOverlap.AddDynamic(this, &ALootActor::OnOverlapBegin);
+	}
+
+	// add to event manager
+	TArray<AActor*> TaggedActors;
+	UGameplayStatics::GetAllActorsWithTag(
+		GetWorld(), "EventManager", TaggedActors);
+	if (TaggedActors.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(
+			TaggedActors[0]);
+		EventManager->AddInvoker(this);
 	}
 }
 

@@ -83,9 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeRandomGoodLootTeddyBearActor() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_RandomGoodLootTeddyBearActor_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARandomGoodLootTeddyBearActor, ARandomGoodLootTeddyBearActor::StaticClass, TEXT("ARandomGoodLootTeddyBearActor"), &Z_Registration_Info_UClass_ARandomGoodLootTeddyBearActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARandomGoodLootTeddyBearActor), 2138910489U) },
+		{ Z_Construct_UClass_ARandomGoodLootTeddyBearActor, ARandomGoodLootTeddyBearActor::StaticClass, TEXT("ARandomGoodLootTeddyBearActor"), &Z_Registration_Info_UClass_ARandomGoodLootTeddyBearActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARandomGoodLootTeddyBearActor), 1159860932U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_RandomGoodLootTeddyBearActor_h_2217321959(TEXT("/Script/BearsGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_RandomGoodLootTeddyBearActor_h_2595171375(TEXT("/Script/BearsGame"),
 		Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_RandomGoodLootTeddyBearActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BearsGame_Source_BearsGame_RandomGoodLootTeddyBearActor_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

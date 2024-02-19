@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "DelegateDeclarations.h"
+
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
 #include "GameHUD.generated.h"
@@ -24,5 +26,24 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HUDFont")
 	UFont* HudFont;
 	virtual void DrawHUD() override;
+	UFUNCTION()
 	void AddScore(int Value);
+	/**
+	 * Adds this object to the given points added event
+	 * @param PointsAddedEvent points added event
+	 * @return delegate handle
+	*/
+	FDelegateHandle AddToPointsAddedEvent(FPointsAddedEvent& PointsAddedEvent);
+	/**
+	 * Called when actor is being removed from level
+	 * @param EndPlayReason why the actor is being removed
+	*/
+	UFUNCTION()
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
+protected:
+	/**
+	 * Called when the game starts or when spawned
+	*/
+	virtual void BeginPlay() override;
 };
