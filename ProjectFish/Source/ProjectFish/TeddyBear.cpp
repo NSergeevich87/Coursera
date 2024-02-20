@@ -7,6 +7,24 @@
 #include "FishPawn.h"
 #include "GameHUD.h"
 #include "Kismet/GameplayStatics.h"
+#include "EventManagerActor.h"
+
+FKillAddedEvent& ATeddyBear::GetKillAddedEvent()
+{
+	// TODO: insert return statement here
+	return KillAddedEvent;
+}
+
+void ATeddyBear::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	TArray<AActor*> EventManagers;
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), "EventManager", EventManagers);
+	if (EventManagers.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(EventManagers[0]);
+		EventManager->RemoveInvoker(this);
+	}
+}
 
 // Sets default values
 ATeddyBear::ATeddyBear()
@@ -40,6 +58,14 @@ void ATeddyBear::BeginPlay()
 	if (ConfigurationDataActors.Num() > 0)
 	{
 		ConfigurationData = (AConfigurationDataActor*)ConfigurationDataActors[0];
+	}
+
+	TArray<AActor*> EventManagers;
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), "EventManager", EventManagers);
+	if (EventManagers.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(EventManagers[0]);
+		EventManager->AddInvoker(this);
 	}
 }
 
@@ -75,11 +101,12 @@ void ATeddyBear::OnOverlapBegin(
 			if (Health <= 0)
 			{
 				UGameplayStatics::PlaySound2D(this, TeddyDeath);
-				AGameHUD* GameHud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
+				/*AGameHUD* GameHud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
 				if (GameHud != nullptr)
 				{
 					GameHud->SetKills(1);
-				}
+				}*/
+				KillAddedEvent.Broadcast();
 				Destroy();
 			}
 		}

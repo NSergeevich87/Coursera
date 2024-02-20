@@ -14,12 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECTFISH_GameHUD_generated_h
 
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_SPARSE_DATA
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_ACCESSORS
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_SPARSE_DATA
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEndPlay);
+
+
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_ACCESSORS
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGameHUD(); \
 	friend struct Z_Construct_UClass_AGameHUD_Statics; \
@@ -28,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(AGameHUD)
 
 
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGameHUD(AGameHUD&&); \
@@ -40,17 +44,17 @@ public: \
 	NO_API virtual ~AGameHUD();
 
 
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_13_PROLOG
-#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_GENERATED_BODY \
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_15_PROLOG
+#define FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_SPARSE_DATA \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_ACCESSORS \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_INCLASS_NO_PURE_DECLS \
-	FID_ProjectFish_Source_ProjectFish_GameHUD_h_16_ENHANCED_CONSTRUCTORS \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_SPARSE_DATA \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_ACCESSORS \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_INCLASS_NO_PURE_DECLS \
+	FID_ProjectFish_Source_ProjectFish_GameHUD_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -17,16 +17,17 @@ struct FHitResult;
 #endif
 #define PROJECTFISH_TeddyBear_generated_h
 
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_SPARSE_DATA
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_SPARSE_DATA
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnOverlapBegin);
+	DECLARE_FUNCTION(execOnOverlapBegin); \
+	DECLARE_FUNCTION(execEndPlay);
 
 
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_ACCESSORS
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_ACCESSORS
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATeddyBear(); \
 	friend struct Z_Construct_UClass_ATeddyBear_Statics; \
@@ -35,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ATeddyBear)
 
 
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATeddyBear(ATeddyBear&&); \
@@ -47,17 +48,17 @@ public: \
 	NO_API virtual ~ATeddyBear();
 
 
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_11_PROLOG
-#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_GENERATED_BODY \
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_13_PROLOG
+#define FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_SPARSE_DATA \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_ACCESSORS \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_INCLASS_NO_PURE_DECLS \
-	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_14_ENHANCED_CONSTRUCTORS \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_SPARSE_DATA \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_ACCESSORS \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_INCLASS_NO_PURE_DECLS \
+	FID_ProjectFish_Source_ProjectFish_TeddyBear_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

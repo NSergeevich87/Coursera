@@ -61,6 +61,18 @@
     <ClInclude Include="..\..\Source\ProjectFish\ConfigurationDataStruct.h">
       <Filter>Source\ProjectFish</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\DelegateDeclarations.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\DelegateDeclarations.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectFish\EventManagerActor.cpp">
+      <Filter>Source\ProjectFish</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectFish\EventManagerActor.h">
+      <Filter>Source\ProjectFish</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ProjectFish\FishPawn.cpp">
       <Filter>Source\ProjectFish</Filter>
     </ClCompile>

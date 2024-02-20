@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodeTeddyBear() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
+	ENGINE_API UEnum* Z_Construct_UEnum_Engine_EEndPlayReason();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	PROJECTFISH_API UClass* Z_Construct_UClass_ATeddyBear();
 	PROJECTFISH_API UClass* Z_Construct_UClass_ATeddyBear_NoRegister();
@@ -32,13 +33,64 @@ void EmptyLinkFunctionForGeneratedCodeTeddyBear() {}
 		P_THIS->OnOverlapBegin(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComponent,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ATeddyBear::execEndPlay)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_EndPlayReason);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason));
+		P_NATIVE_END;
+	}
 	void ATeddyBear::StaticRegisterNativesATeddyBear()
 	{
 		UClass* Class = ATeddyBear::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "EndPlay", &ATeddyBear::execEndPlay },
 			{ "OnOverlapBegin", &ATeddyBear::execOnOverlapBegin },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATeddyBear_EndPlay_Statics
+	{
+		struct TeddyBear_eventEndPlay_Parms
+		{
+			TEnumAsByte<EEndPlayReason::Type> EndPlayReason;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EndPlayReason_MetaData[];
+#endif
+		static const UECodeGen_Private::FBytePropertyParams NewProp_EndPlayReason;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::NewProp_EndPlayReason_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::NewProp_EndPlayReason = { "EndPlayReason", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TeddyBear_eventEndPlay_Parms, EndPlayReason), Z_Construct_UEnum_Engine_EEndPlayReason, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::NewProp_EndPlayReason_MetaData), Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::NewProp_EndPlayReason_MetaData) }; // 930452524
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::NewProp_EndPlayReason,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TeddyBear.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATeddyBear, nullptr, "EndPlay", nullptr, nullptr, Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::PropPointers), sizeof(Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::TeddyBear_eventEndPlay_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::TeddyBear_eventEndPlay_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_ATeddyBear_EndPlay()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATeddyBear_EndPlay_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATeddyBear_OnOverlapBegin_Statics
 	{
@@ -149,6 +201,7 @@ void EmptyLinkFunctionForGeneratedCodeTeddyBear() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATeddyBear_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATeddyBear_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATeddyBear_EndPlay, "EndPlay" }, // 1251105764
 		{ &Z_Construct_UFunction_ATeddyBear_OnOverlapBegin, "OnOverlapBegin" }, // 301533896
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATeddyBear_Statics::FuncInfo) < 2048);
@@ -206,9 +259,9 @@ void EmptyLinkFunctionForGeneratedCodeTeddyBear() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProjectFish_Source_ProjectFish_TeddyBear_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATeddyBear, ATeddyBear::StaticClass, TEXT("ATeddyBear"), &Z_Registration_Info_UClass_ATeddyBear, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATeddyBear), 1068246389U) },
+		{ Z_Construct_UClass_ATeddyBear, ATeddyBear::StaticClass, TEXT("ATeddyBear"), &Z_Registration_Info_UClass_ATeddyBear, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATeddyBear), 4065859004U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProjectFish_Source_ProjectFish_TeddyBear_h_640905962(TEXT("/Script/ProjectFish"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ProjectFish_Source_ProjectFish_TeddyBear_h_2629349(TEXT("/Script/ProjectFish"),
 		Z_CompiledInDeferFile_FID_ProjectFish_Source_ProjectFish_TeddyBear_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ProjectFish_Source_ProjectFish_TeddyBear_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "DelegateDeclarations.h"
+
 #include "ProjectFishSaveGame.h"
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
@@ -26,10 +28,17 @@ private:
 public:
 	AGameHUD();
 
+	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = HUDFont)
 	UFont* HudFont;
 
 	virtual void DrawHUD() override;
 
-	void SetKills(int value);
+	void SetKills();
+
+	FDelegateHandle AddToKillAddedEvent(FKillAddedEvent& KillAddedEvent);
+
+	UFUNCTION()
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 };

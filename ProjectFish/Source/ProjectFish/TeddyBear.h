@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "DelegateDeclarations.h"
+
 #include "ConfigurationDataActor.h"
 #include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
@@ -17,10 +19,15 @@ private:
 	//const float CaidaVelocity{ 60 };
 	float HalfCollisionHeight;
 	int Health{ 100 };
-
 	AConfigurationDataActor* ConfigurationData;
-	
+
+	FKillAddedEvent KillAddedEvent;
+
 public:	
+	FKillAddedEvent& GetKillAddedEvent();
+	UFUNCTION()
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
 	// Sets default values for this actor's properties
 	ATeddyBear();
 
