@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\coursera\\dontdestroyme\\intermediate\\build\\win64\\unrealeditor\\inc\\dontdestroyme\\uht\\widgetpawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\coursera\\dontdestroyme\\intermediate\\build\\win64\\x64\\dontdestroymeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\coursera\\dontdestroyme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dontdestroyme\\definitions.dontdestroyme.h",
+            "d:\\unreal\\projects\\coursera\\dontdestroyme\\source\\dontdestroyme\\widgetpawn.h",
+            "d:\\unreal\\projects\\coursera\\dontdestroyme\\intermediate\\build\\win64\\unrealeditor\\inc\\dontdestroyme\\uht\\widgetpawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
