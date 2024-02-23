@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBearsGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x20DDFF2E,
+				0x2588D015,
 				0x49F12081,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeBearsGame_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_BearsGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BearsGame(Z_Construct_UPackage__Script_BearsGame, TEXT("/Script/BearsGame"), Z_Registration_Info_UPackage__Script_BearsGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x20DDFF2E, 0x49F12081));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BearsGame(Z_Construct_UPackage__Script_BearsGame, TEXT("/Script/BearsGame"), Z_Registration_Info_UPackage__Script_BearsGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2588D015, 0x49F12081));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

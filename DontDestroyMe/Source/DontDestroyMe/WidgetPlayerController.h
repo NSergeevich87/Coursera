@@ -14,4 +14,9 @@ class DONTDESTROYME_API AWidgetPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
+public:
+	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable)
+	void DestroyPawn();
 };

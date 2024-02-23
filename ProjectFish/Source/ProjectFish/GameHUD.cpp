@@ -23,8 +23,8 @@ AGameHUD::AGameHUD()
 		);
 	}
 	// reset kills to 0
-	//SaveGameInstance->NumKills = 0;
-	//UGameplayStatics::SaveGameToSlot(SaveGameInstance, "FishShooterSaveSlot", 0);
+	SaveGameInstance->NumKills = 0;
+	UGameplayStatics::SaveGameToSlot(SaveGameInstance, "FishShooterSaveSlot", 0);
 }
 
 void AGameHUD::BeginPlay()

@@ -16,6 +16,15 @@ void AWidgetPawn::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	SetActorLocation(FVector::ZeroVector);
+
+	/*UStaticMesh* StaticMesh;
+	TArray<APawn*> Components;
+	GetComponents(Components);
+	if (Components.Num() > 0)
+	{
+		StaticMesh = Cast<UStaticMesh>(Components[0]);
+	}*/
 }
 
 // Called every frame

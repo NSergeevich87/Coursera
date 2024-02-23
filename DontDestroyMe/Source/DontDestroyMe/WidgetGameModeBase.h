@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "Blueprint/UserWidget.h"
+
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "WidgetGameModeBase.generated.h"
@@ -17,4 +19,8 @@ class DONTDESTROYME_API AWidgetGameModeBase : public AGameModeBase
 public:
 	AWidgetGameModeBase();
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UI buttons")
+	TSubclassOf<UUserWidget> ButtonWidget;
+
+	virtual void BeginPlay() override;
 };

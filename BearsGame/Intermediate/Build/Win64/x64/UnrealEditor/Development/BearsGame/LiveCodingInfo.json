@@ -3,9 +3,7 @@
 	{
 		"Module.BearsGame.cpp.obj": [
 			"BadLootActor.gen.cpp.obj",
-			"BearsGame.init.gen.cpp.obj",
 			"BearsGameModeBase.gen.cpp.obj",
-			"BearsGamePlayerController.gen.cpp.obj",
 			"ChainsawLauncherActor.gen.cpp.obj",
 			"ChainsawProjectileActor.gen.cpp.obj",
 			"DelegateDeclarations.gen.cpp.obj",
@@ -29,7 +27,6 @@
 			"BadLootActor.cpp.obj",
 			"BearsGame.cpp.obj",
 			"BearsGameModeBase.cpp.obj",
-			"BearsGamePlayerController.cpp.obj",
 			"ChainsawLauncherActor.cpp.obj",
 			"ChainsawProjectileActor.cpp.obj",
 			"DelegateDeclarations.cpp.obj",
@@ -50,7 +47,10 @@
 			"SpawnLounchers.cpp.obj",
 			"TeddyBearActor.cpp.obj",
 			"ZombieLauncherActor.cpp.obj",
-			"ZombieProjectileActor.cpp.obj"
+			"ZombieProjectileActor.cpp.obj",
+			"BearsGame.init.gen.cpp.obj",
+			"BearsGamePlayerController.gen.cpp.obj",
+			"BearsGamePlayerController.cpp.obj"
 		]
 	}
 }

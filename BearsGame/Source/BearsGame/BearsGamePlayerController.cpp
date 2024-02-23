@@ -5,12 +5,28 @@
 #include "SpawnLounchers.h"
 #include "Kismet/GameplayStatics.h"
 
+void ABearsGamePlayerController::PauseGame()
+{
+	if (PauseMenuWidgetClass != nullptr)
+	{
+		UUserWidget* CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), PauseMenuWidgetClass);
+		if (CurrentWidget != nullptr)
+		{
+			CurrentWidget->AddToViewport();
+			SetInputMode(FInputModeUIOnly());
+			bShowMouseCursor = true;
+			SetPause(true);
+		}
+	}
+}
+
 void ABearsGamePlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
 	check(InputComponent != nullptr)
 	InputComponent->BindAction("Destroyer", EInputEvent::IE_Released, this, &ABearsGamePlayerController::DestroyAllLaunchers);
+	InputComponent->BindAction("GamePause", EInputEvent::IE_Pressed, this, &ABearsGamePlayerController::PauseGame);
 }
 
 void ABearsGamePlayerController::DestroyAllLaunchers()

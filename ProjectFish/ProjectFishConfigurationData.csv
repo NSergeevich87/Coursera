@@ -1,2 +1,2 @@
 Name,FishMoveAmountPerSecond,FishForceMagnitude,TeddyMoveAmountPerSecond,MinSpawnDelaySeconds,MaxSpawnDelaySeconds
-ConfigData,300,300,100,0.5,1.5
+ConfigData,300,300,50,1,2

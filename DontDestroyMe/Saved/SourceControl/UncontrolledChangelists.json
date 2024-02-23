@@ -15,7 +15,6 @@
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalObjects__/_Game/Maps/Map0/1/ZE/H6PTOHVV7MFYHVUSK7DPNW.uasset",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/A/LA/BQV0Q9S5DMXTZ7WK5RD7KC.uasset",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/3/DO/CWZZG4PDIH26N340WQQNFM.uasset",
-				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/E/AT/BC9LV0Y8NM1JHCN48KG1L8.uasset",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/C/V8/7S3M873MPRDANO7HWAOYG5.uasset",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/B/ZK/V3VRM1PD6IR8FPVX9UNJ33.uasset",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/1/22/7KK1K8XWR67PWTBRY9MLGC.uasset",
@@ -69,7 +68,13 @@
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Maps/Map0.umap",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/6/0V/SFLAHTXW3UNX46G0AB0O86.uasset",
 				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Blueprints/BP_WidgetPawn.uasset",
-				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Blueprints/BP_WidgetPlayerController.uasset"
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Blueprints/BP_WidgetPlayerController.uasset",
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Blueprints/BP_WidgetGameModeBase.uasset",
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/BottomWidget/BottomWidget.uasset",
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Art/M_DrT_Head.uasset",
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Art/SM_DrT_Head.uasset",
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/_Game/Art/T_DrT_Head_D.uasset",
+				"D:/Unreal/Projects/Coursera/DontDestroyMe/Content/__ExternalActors__/_Game/Maps/Map0/E/AT/BC9LV0Y8NM1JHCN48KG1L8.uasset"
 			]
 		}
 	]
