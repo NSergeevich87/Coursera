@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FeedTheTeddies",
+			"Path": "C:\\Users\\nikni\\Downloads\\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\\FeedTheTeddies\\Source\\FeedTheTeddies.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FeedTheTeddiesEditor",
+			"Path": "C:\\Users\\nikni\\Downloads\\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\\FeedTheTeddies\\Source\\FeedTheTeddiesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
