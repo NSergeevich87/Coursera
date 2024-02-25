@@ -28,7 +28,6 @@
 /we4458
 /we4459
 /wd4463
-/we4668
 /wd4244
 /wd4838
 /I .
@@ -77,8 +76,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags
 /I Runtime\GameplayTags\Classes
 /I Runtime\GameplayTags\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings
-/I Runtime\DeveloperSettings\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler
 /I Runtime\PacketHandlers
 /I Runtime\PacketHandlers\PacketHandler\Classes
@@ -96,6 +93,8 @@
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore
 /I Runtime\PhysicsCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings
+/I Runtime\DeveloperSettings\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Chaos
 /I Runtime\Experimental
 /I Runtime\Experimental\Chaos\Public
@@ -231,8 +230,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Intermediate\Build\Win64\UE4Editor\Inc\FeedTheTeddies
-/I C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Source
+/I "C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Intermediate\Build\Win64\UE4Editor\Inc\FeedTheTeddies"
+/I "C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Source"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -256,18 +255,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Intermediate\Build\Win64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Intermediate\Build\Win64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Intermediate\Build\Win64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Source\FeedTheTeddies\FeedTheTeddiesSaveGame.cpp"
-/FI"C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Intermediate\Build\Win64\UE4Editor\Development\FeedTheTeddies\Definitions.FeedTheTeddies.h"
-/Fo"C:\Users\nikni\Downloads\a_1GhGhUTUe9RoRoVG1HLg_8d2289c84c62483d85902f1e1ea576f1_4-Final-Code\FeedTheTeddies\Intermediate\Build\Win64\UE4Editor\Development\FeedTheTeddies\FeedTheTeddiesSaveGame.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Intermediate\Build\Win64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Intermediate\Build\Win64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Intermediate\Build\Win64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Source\FeedTheTeddies\FeedTheTeddiesSaveGame.cpp"
+/FI"C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Intermediate\Build\Win64\UE4Editor\Development\FeedTheTeddies\Definitions.FeedTheTeddies.h"
+/Fo"C:\Users\timch\Documents\Unreal Projects\FeedTheTeddies\Intermediate\Build\Win64\UE4Editor\Development\FeedTheTeddies\FeedTheTeddiesSaveGame.cpp.obj"
 /TP
 /GR-
 /W4
